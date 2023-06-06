@@ -23,14 +23,6 @@ Note that for smaller CPU only wheel on x86_64 Linux (v0.17+), one can opt for i
 $ pip install open3d-cpu
 ```
 
-#### Python API
-```
-python -c "import open3d as o3d; \
-           mesh = o3d.geometry.TriangleMesh.create_sphere(); \
-           mesh.compute_vertex_normals(); \
-           o3d.visualization.draw(mesh, raw_mode=True)"
-```
-
 #### Open3D CLI
 ```
 open3d example visualization/draw
@@ -43,12 +35,6 @@ The positional data (X,Y,Z coordinates) are imported from .xls file. These can b
 ### Loops
 The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot strip and histplots of the data.
 
-
-## Built With
-
-* [open3d]
-* [seaborn]
-* [Matplotlib]
 
 ## Contributing
 
