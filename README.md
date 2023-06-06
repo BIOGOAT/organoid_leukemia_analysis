@@ -1,6 +1,6 @@
 # Organoid Leukemia Data Analysis
 
-One Paragraph of project description goes here
+These scripts were developed as part of a PhD project at the University Clinic Düsseldorf (Department of Paediatric Oncology, Hematology, and Clinical Immunology) under supervision of Sanil Bhatia PhD and Ute Fische PhD.
 
 ## Getting Started
 
@@ -33,23 +33,26 @@ pip install seaborn
 
 
 ## Running the Analyses
-
+All dataframes imported in these scripts undergo trimmings to remove headers and unneeded columns, before being used for plotting.
 ### Grid of Scatter Plots
+The positional data (X,Y,Z coordinates) are imported from .xls file. These can be plotted as three scatter plots for each data sample. This will create three different plots showing XY, YZ, XZ 2D plots of the positional data. The Z-axis data are selected to produce the gradient color of the colorbar.
 ### Loops
-
+The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot strip and histplots of the data.
 
 
 ## Built With
 
 * [open3d]
+* [seaborn]
+* [Matplotlib]
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+No contributions are required.
 
 ## Versioning
 
-%what can I put here Valya?
+What can I put here Valya?
 
 ## Authors
 
@@ -59,7 +62,7 @@ See also the list of [contributors](https://github.com/BIOGOAT/organoid_leukemia
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Do we need this?
 
 ## Acknowledgments
 
