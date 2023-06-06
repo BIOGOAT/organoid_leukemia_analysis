@@ -13,9 +13,10 @@ Ensure that you have have notebooks set up to run python code. The scripts inclu
 ### Installing
 
 #### Open3D
+```
 pip install open3d       # or
 pip install open3d-cpu   # Smaller CPU only wheel on x86_64 Linux (v0.17+)
-
+```
 #### Verify installation
 python -c "import open3d as o3d; print(o3d.__version__)"
 
