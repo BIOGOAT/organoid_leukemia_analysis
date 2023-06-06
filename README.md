@@ -14,24 +14,34 @@ Ensure that you have have notebooks set up to run python code. The scripts inclu
 
 #### Open3D
 ```
-pip install open3d       # or
+pip install open3d
+```
+or
+```
 pip install open3d-cpu   # Smaller CPU only wheel on x86_64 Linux (v0.17+)
 ```
 #### Verify installation
+```
 python -c "import open3d as o3d; print(o3d.__version__)"
+```
 
 #### Python API
+```
 python -c "import open3d as o3d; \
            mesh = o3d.geometry.TriangleMesh.create_sphere(); \
            mesh.compute_vertex_normals(); \
            o3d.visualization.draw(mesh, raw_mode=True)"
+```
 
 #### Open3D CLI
+```
 open3d example visualization/draw
+```
 
 #### Seaborn
+```
 pip install seaborn
-
+```
 
 ## Running the Analyses
 All dataframes imported in these scripts undergo trimmings to remove headers and unneeded columns, before being used for plotting.
