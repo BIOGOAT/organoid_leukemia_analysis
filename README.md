@@ -55,3 +55,20 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 * Inspiration
 * etc
 
+
+## Citation
+
+Please consider citing this work, if you find this repository useful for your work:
+
+```bash
+@article{PHILIP,
+  title={TITLE PAPER},
+  author={AUTHORS},
+  journal={THE JOURNAL},
+  volume={VOL},
+  number={NUMBER},
+  year={2023},
+  publisher={PUBLISHER}
+}
+```
+
