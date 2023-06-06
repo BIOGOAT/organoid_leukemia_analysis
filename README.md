@@ -10,7 +10,12 @@ This code was created to transform image data from confocal microscopy for furth
 
 Ensure that you have have notebooks set up to run python code. The scripts included in this repository were written using Jupyter Notebook. Example data used for our manuscript submision to Blood Hematology, can be found under the "data" folde. One can also use their own data, so long as it is in the format seen in these example data.
 
-### Installing
+### Installation
+Wse the following command to install the dependencies using pip: 
+```bash
+pip install -r requirements.txt
+```
+This will run installation for all dependencies required in notebooks
 
 #### Open3D
 ```
