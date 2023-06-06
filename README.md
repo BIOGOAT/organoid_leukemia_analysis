@@ -13,21 +13,14 @@ Ensure that you have have notebooks set up to run python code. The scripts inclu
 ### Installation
 Wse the following command to install the dependencies using pip: 
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 This will run installation for all dependencies required in notebooks
 
-#### Open3D
-```
-pip install open3d
-```
-or
-```
-pip install open3d-cpu   # Smaller CPU only wheel on x86_64 Linux (v0.17+)
-```
-#### Verify installation
-```
-python -c "import open3d as o3d; print(o3d.__version__)"
+Note that for smaller CPU only wheel on x86_64 Linux (v0.17+), one can opt for installing `open3d-cpu` as
+
+```bash
+$ pip install open3d-cpu
 ```
 
 #### Python API
@@ -41,11 +34,6 @@ python -c "import open3d as o3d; \
 #### Open3D CLI
 ```
 open3d example visualization/draw
-```
-
-#### Seaborn
-```
-pip install seaborn
 ```
 
 ## Running the Analyses
