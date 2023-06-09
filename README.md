@@ -22,6 +22,7 @@ pip install open3d-cpu
 ```
 
 #### Open3D CLI
+This package is used to create the poisson reconstruction [Kazhdan2006] of organoids, which is ultimately used to calculate the distances between the organoid surface and leukemia cells.
 ```bash
 open3d example visualization/draw
 ```
@@ -29,9 +30,11 @@ open3d example visualization/draw
 ## Contents
 - `data` - Contains files with WRITE
 Files in the `notebook` folder:
-- `1857_Triplicate_Analysis.ipynb` - Jupyter notebook for 
-- `Leukemia_vs_Healthy.ipynb` - Jupyter notebook for 
-- `Other_Leukemia_Entities.ipynb` - Jupyter notebook for
+- `1857_Triplicate_Analysis.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three sets of "paired image data" (each organoid image combines a DOTS and VOL file for both organoid and cancer cells respectively). Here, experimental triplicates for the cell type 'PDX' are analysed and plotted (please refer to our manuscript).
+
+- `Leukemia_vs_Healthy.ipynb` - Jupyter notebook for calculating closest distance by cells determined from two independent experiments "Leukemia" and "Healthy", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of leukemia cells, compared to those of healthy controls (please refer to our manuscript).
+
+- `Other_Leukemia_Entities.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three independent experiments "SUPB15", "697", and "Kasumi2", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of several leukemia entities (please refer to our manuscript).
 - `Scatter_Plots_Leukaemia_Healthy.ipynb` - 
 
 ## Summary of the Analyses
@@ -51,7 +54,7 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 
 ## Acknowledgments
 
-* Hat tip to Valentina Bazyleva for her patience and guidance during my coding phase
+* Hat tip to Valentina Bazyleva for her patience and guidance during my coding phase and help with this repository
 * Inspiration
 * etc
 
