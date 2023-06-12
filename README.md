@@ -58,8 +58,20 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 * Inspiration
 * etc
 
-# License
+# Package References
+
+#---
+#output:
+ #md_document:
+#variant: markdown_github
+#bibliography: bibliography.bib
+#---
+
+
 ## Open3D
+
+[@Zhou2018]
+
 ```bash
 @article{Zhou2018,
    author  = {Qian-Yi Zhou and Jaesik Park and Vladlen Koltun},
@@ -70,6 +82,8 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 ```
 
 # Seaborn
+
+[@Waskom2021]
 ```bash
 @article{Waskom2021,
     doi = {10.21105/joss.03021},
@@ -82,9 +96,10 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
     author = {Michael L. Waskom},
     title = {seaborn: statistical data visualization},
     journal = {Journal of Open Source Software}
- `
+}
  ```
 # Matplotlib 
+[@Hunter:2007]
 ```bash
 @Article{Hunter:2007,
   Author    = {Hunter, J. D.},
