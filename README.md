@@ -64,14 +64,6 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 
 [@Zhou2018]
 
-# Seaborn
-
-[@Waskom2021]
-
-# Matplotlib
-
-[@Hunter:2007]
-
 # Versions
 
 ### Please refer to requirements.txt for package versions used
