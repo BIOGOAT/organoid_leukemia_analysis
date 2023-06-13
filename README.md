@@ -62,7 +62,11 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 
 ## Open3D
 
-[@Zhou2018]
+We have cited the Open3D package in our manuscript...
+
+```bash
+Zhou QY, Park J, Koltun V. Open3D: A Modern Library for 3D Data Processing. Published online January 29, 2018. Accessed February 21, 2023. http://arxiv.org/abs/1801.09847
+```
 
 # Versions
 
