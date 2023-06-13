@@ -2,6 +2,8 @@
 
 These scripts were developed as part of a PhD project at the University Clinic Düsseldorf (Department of Paediatric Oncology, Hematology, and Clinical Immunology) under supervision of Sanil Bhatia PhD and Ute Fische PhD.
 
+![TitleImage](https://github.com/BIOGOAT/organoid_leukemia_analysis/assets/103995515/97349225-9e72-4fb4-b9bb-52ecd68ca325)
+
 ## Getting Started
 
 This code was created to transform image data from confocal microscopy for further analysis. We input "positional data" ie. coordinate data exported from "Imaris" software (Oxford Instruments, RRID:SCR_007370)
