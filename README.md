@@ -4,7 +4,7 @@ These scripts were developed as part of a PhD project at the University Clinic D
 
 ## Getting Started
 
-This code was created to transform image data from confocal microscopy for further analysis. We input "positional data" i.e., coordinate data exported from "Imaris" software (Oxford Instruments, RRID:SCR_007370)
+This code was created to transform image data from confocal microscopy for further analysis. We input "positional data" i.e., coordinate data exported from "Imaris" software (Oxford Instruments, RRID:SCR_007370).
 
 ![TitleImage](https://github.com/BIOGOAT/organoid_leukemia_analysis/assets/103995515/129b57c9-1336-4933-be62-624db74becb7)
 
@@ -34,7 +34,7 @@ Files in the `notebooks` folder:
 - `1857_Triplicate_Analysis.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three sets of "paired image data" (each organoid image combines a DOTS and VOL file for both organoid and cancer cells respectively). Here, experimental triplicates for the cell type 'PDX' are analysed and plotted (please refer to our manuscript).
 - `Leukemia_vs_Healthy.ipynb` - Jupyter notebook for calculating closest distance by cells determined from two independent experiments "Leukemia" and "Healthy", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of leukemia cells, compared to those of healthy controls (please refer to our manuscript).
 - `Other_Leukemia_Entities.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three independent experiments "SUPB15", "697", and "Kasumi2", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of several leukemia entities (please refer to our manuscript).
-- `Scatter_Plots_Leukaemia_Healthy.ipynb` - 
+- `Scatter_Plots_Leukaemia_Healthy.ipynb` - Jupyter notebook for visualizing 3D imaging data of organoids. Here we plot VOL and DOTS data for "PDX" and "HSC".
 
 ## Summary of the Analyses
 All dataframes imported in these scripts undergo trimmings to remove headers and unneeded columns, before being used for plotting.
@@ -57,9 +57,9 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 * Inspiration
 * etc
 
-# Package References
+## Package References
 
-## Open3D
+### Open3D
 
 We have cited the Open3D package in our manuscript...
 
@@ -67,11 +67,11 @@ We have cited the Open3D package in our manuscript...
 Zhou QY, Park J, Koltun V. Open3D: A Modern Library for 3D Data Processing. Published online January 29, 2018. Accessed February 21, 2023. http://arxiv.org/abs/1801.09847
 ```
 
-# Versions
+## Versions
 
-### Please refer to requirements.txt for package versions used
+Please refer to requirements.txt for package versions used
 
-# Citation
+## Citation
 
 Please consider citing this work, if you find this repository useful for your work:
 
