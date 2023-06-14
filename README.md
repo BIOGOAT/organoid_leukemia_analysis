@@ -4,7 +4,7 @@ These scripts were developed as part of a PhD project at the University Clinic D
 
 ## Getting Started
 
-This code was created to transform image data from confocal microscopy for further analysis. We input "positional data" ie. coordinate data exported from "Imaris" software (Oxford Instruments, RRID:SCR_007370)
+This code was created to transform image data from confocal microscopy for further analysis. We input "positional data" i.e., coordinate data exported from "Imaris" software (Oxford Instruments, RRID:SCR_007370)
 
 ![TitleImage](https://github.com/BIOGOAT/organoid_leukemia_analysis/assets/103995515/129b57c9-1336-4933-be62-624db74becb7)
 
