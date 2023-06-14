@@ -30,8 +30,7 @@ open3d example visualization/draw
 ```
 
 ## Contents
-- `data` - Contains files with WRITE
-Files in the `notebook` folder:
+Files in the `notebooks` folder:
 - `1857_Triplicate_Analysis.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three sets of "paired image data" (each organoid image combines a DOTS and VOL file for both organoid and cancer cells respectively). Here, experimental triplicates for the cell type 'PDX' are analysed and plotted (please refer to our manuscript).
 
 - `Leukemia_vs_Healthy.ipynb` - Jupyter notebook for calculating closest distance by cells determined from two independent experiments "Leukemia" and "Healthy", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of leukemia cells, compared to those of healthy controls (please refer to our manuscript).
@@ -41,11 +40,11 @@ Files in the `notebook` folder:
 
 ## Summary of the Analyses
 All dataframes imported in these scripts undergo trimmings to remove headers and unneeded columns, before being used for plotting.
-### Grid of Scatter Plots (CHANGE)
-The positional data (X,Y,Z coordinates) are imported from .xls file. These can be plotted as three scatter plots for each data sample. This will create three different plots showing XY, YZ, XZ 2D plots of the positional data. The Z-axis data are selected to produce the gradient color of the colorbar.
-### Loops (CHANGE)
-The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot strip and histplots of the data.
+- The positional data (X,Y,Z coordinates) are imported from .xls file. These can be plotted as three scatter plots for each data sample. This will create three different plots showing XY, YZ, XZ 2D plots of the positional data. The Z-axis data are selected to produce the gradient color of the colorbar.
+- The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot strip and histplots of the data.
 
+## Data
+To run with the original data, download the data from https://figshare.com/articles/dataset/data_zip/23515965 and add the unzipped folder named `data` into `notebooks` folder.
 
 ## Authors
 
