@@ -32,10 +32,11 @@ open3d example visualization/draw
 ## Contents
 Files in the `notebooks` folder:
 - `1857_Triplicate_Analysis.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three sets of "paired image data" (each organoid image combines a DOTS and VOL file for both organoid and cancer cells respectively). Here, experimental triplicates for the cell type 'PDX' are analysed and plotted (please refer to our manuscript).
-
+- 
 - `Leukemia_vs_Healthy.ipynb` - Jupyter notebook for calculating closest distance by cells determined from two independent experiments "Leukemia" and "Healthy", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of leukemia cells, compared to those of healthy controls (please refer to our manuscript).
 
 - `Other_Leukemia_Entities.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three independent experiments "SUPB15", "697", and "Kasumi2", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of several leukemia entities (please refer to our manuscript).
+
 - `Scatter_Plots_Leukaemia_Healthy.ipynb` - 
 
 ## Summary of the Analyses
@@ -44,7 +45,7 @@ All dataframes imported in these scripts undergo trimmings to remove headers and
 - The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot strip and histplots of the data.
 
 ## Data
-To run with the original data, download the data from https://figshare.com/articles/dataset/data_zip/23515965 and add the unzipped folder named `data` into `notebooks` folder.
+To run with the original data, download it from https://figshare.com/articles/dataset/data_zip/23515965 and add the unzipped folder named `data` into `notebooks` folder.
 
 ## Authors
 
