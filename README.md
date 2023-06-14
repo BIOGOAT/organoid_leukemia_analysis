@@ -54,8 +54,6 @@ See also [contributors](https://github.com/bazvalya) who participated in this pr
 ## Acknowledgments
 
 * Hat tip to Valentina Bazyleva for her patience and guidance during my coding phase and help with this repository
-* Inspiration
-* etc
 
 ## Package References
 
