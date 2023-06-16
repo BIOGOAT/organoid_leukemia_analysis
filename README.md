@@ -1,6 +1,6 @@
 # Organoid Leukemia Data Analysis
 
-These scripts were developed as part of a PhD project at the University Clinic Düsseldorf (Department of Paediatric Oncology, Hematology, and Clinical Immunology) under supervision of Sanil Bhatia PhD and Ute Fischer PhD.
+These scripts were developed by the author Philip Gebing as part of a PhD project at the University Clinic Düsseldorf (Department of Paediatric Oncology, Hematology, and Clinical Immunology) under supervision of Sanil Bhatia PhD and Ute Fischer PhD.
 
 ## Getting Started
 
