@@ -6,7 +6,7 @@ These scripts were developed by the author Philip Gebing as part of a PhD projec
 
 This code was created to transform image data from confocal microscopy for further analysis. We input "positional data" i.e., coordinate data exported from "Imaris" software (Oxford Instruments, RRID:SCR_007370).
 
-![TitleImage](https://github.com/BIOGOAT/organoid_leukemia_analysis/assets/103995515/d96afc2e-a565-4316-9b2d-4a750ab9531e)
+![TitleImage](https://github.com/BIOGOAT/organoid_leukemia_analysis/assets/103995515/83f51314-88f7-43cf-a304-bdd01cd9703d)
 
 ### Prerequisites and Installation
 Ensure that you have have notebooks set up to run python code. The scripts included in this repository were written using Jupyter Notebook. Example data used for our manuscript submision to Blood Hematology, can be found under the `data` folder. One can also use their own data, so long as it is in the format seen in these example data.
