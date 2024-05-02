@@ -31,10 +31,8 @@ open3d example visualization/draw
 
 ## Contents
 Files in the `notebooks` folder:
-- `1857_Triplicate_Analysis.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three sets of "paired image data" (each organoid image combines a DOTS and VOL file for both organoid and cancer cells respectively). Here, experimental triplicates for the cell type 'PDX' are analysed and plotted (please refer to our manuscript).
-- `Leukemia_vs_Healthy.ipynb` - Jupyter notebook for calculating closest distance by cells determined from two independent experiments "Leukemia" and "Healthy", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of leukemia cells, compared to those of healthy controls (please refer to our manuscript).
-- `Other_Leukemia_Entities.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three independent experiments "SUPB15", "697", and "Kasumi2", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of several leukemia entities (please refer to our manuscript).
-- `Scatter_Plots_Leukaemia_Healthy.ipynb` - Jupyter notebook for visualizing 3D imaging data of organoids. Here we plot VOL and DOTS data for "PDX" and "HSC".
+- `PDX_vs_Control.ipynb` - Jupyter notebook for calculating closest distance by cells determined from three independent experiments "KCL22", "K562", "PDX3", and "PDX1", each containing triplicate data with the paired image data for DOTS and VOL. Here, we illustrate the difference in distances calculated between triplicates of several leukemia entities (please refer to our manuscript).
+- `Grid of Plots PDX_vs_Control.ipynb` - Jupyter notebook for visualizing 3D imaging data of organoids. Here we plot VOL and DOTS data for "KCL22", "K562", "PDX3, and "PDX1".
 
 ## Summary of the Analyses
 All dataframes imported in these scripts undergo trimmings to remove headers and unneeded columns, before being used for plotting.
