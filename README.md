@@ -37,7 +37,7 @@ Files in the `notebooks` folder:
 ## Summary of the Analyses
 All dataframes imported in these scripts undergo trimmings to remove headers and unneeded columns, before being used for plotting.
 - The positional data (X,Y,Z coordinates) are imported from .xls file. These can be plotted as three scatter plots for each data sample. This will create three different plots showing XY, YZ, XZ 2D plots of the positional data. The Z-axis data are selected to produce the gradient color of the colorbar.
-- The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot strip and histplots of the data.
+- The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot stripplots of the data.
 
 ## Data
 To run with the original data, download it from https://figshare.com/articles/dataset/data_zip/23515965 and add the unzipped folder named `data` into `notebooks` folder.
