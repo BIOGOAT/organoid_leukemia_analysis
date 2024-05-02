@@ -40,7 +40,7 @@ All dataframes imported in these scripts undergo trimmings to remove headers and
 - The positional data are imported for both the organoids (VOL) and cells (DOTS) using the open3D package. Firstly, pointclouds (pcds) are created for both organoids and cells which will be used to run distance queries. The organoid data are then used to produce a poisson surface reconstruction. Finally, a dataframe is created using the 'dict' function which is then re-associated with the names of the original files. The seaborn package is then used to plot stripplots of the data.
 
 ## Data
-To run with the original data, download it from https://figshare.com/articles/dataset/data_zip/23515965 and add the unzipped folder named `data` into `notebooks` folder.
+To run with the original data, download it from (https://figshare.com/s/4835d0f62aabc61a8c64) and add the unzipped folder named `data` into `notebooks` folder.
 
 ## Authors
 
