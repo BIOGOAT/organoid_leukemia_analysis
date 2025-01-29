@@ -73,13 +73,13 @@ Please consider citing this work, if you find this repository useful for your wo
 
 ```bash
 @article{PHILIP,
-  title={TITLE PAPER},
-  author={AUTHORS},
-  journal={THE JOURNAL},
-  volume={VOL},
-  number={NUMBER},
-  year={2023},
-  publisher={PUBLISHER}
+  title={A brain organoid/ALL coculture model reveals the AP-1 pathway as critically associated with CNS involvement of BCP-ALL},
+  author={Philip Gebing, Stefanos Loizou, Sebastian Hänsch, Julian Schliehe-Diecks, Lea Spory, Pawel Stachura, Vera H. Jepsen, Melina Vogt, Aleksandra A. Pandyra, Herui Wang, Zhengping Zhuang, Johannes Zimmermann, Martin Schrappe, Gunnar Cario, Ameera Alsadeq, Denis M. Schewe, Arndt Borkhardt, Lennart Lenk, Ute Fischer, Sanil Bhatia},
+  journal={Blood Advances},
+  volume={Blood Adv (2024) 8 (19): },
+  number={4997–5011},
+  year={2024},
+  publisher={ASH Publications}
 }
 ```
 
