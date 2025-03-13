@@ -72,14 +72,21 @@ Please refer to requirements.txt for package versions used
 Please consider citing this work, if you find this repository useful for your work:
 
 ```bash
-@article{PHILIP,
-  title={A brain organoid/ALL coculture model reveals the AP-1 pathway as critically associated with CNS involvement of BCP-ALL},
-  author={Philip Gebing, Stefanos Loizou, Sebastian Hänsch, Julian Schliehe-Diecks, Lea Spory, Pawel Stachura, Vera H. Jepsen, Melina Vogt, Aleksandra A. Pandyra, Herui Wang, Zhengping Zhuang, Johannes Zimmermann, Martin Schrappe, Gunnar Cario, Ameera Alsadeq, Denis M. Schewe, Arndt Borkhardt, Lennart Lenk, Ute Fischer, Sanil Bhatia},
-  journal={Blood Advances},
-  volume={Blood Adv (2024) 8 (19): },
-  number={4997–5011},
-  year={2024},
-  publisher={ASH Publications}
+@article{10.1182/bloodadvances.2023011145,
+    author = {Gebing, Philip and Loizou, Stefanos and Hänsch, Sebastian and Schliehe-Diecks, Julian and Spory, Lea and Stachura, Pawel and Jepsen, Vera H. and Vogt, Melina and Pandyra, Aleksandra A. and Wang, Herui and Zhuang, Zhengping and Zimmermann, Johannes and Schrappe, Martin and Cario, Gunnar and Alsadeq, Ameera and Schewe, Denis M. and Borkhardt, Arndt and Lenk, Lennart and Fischer, Ute and Bhatia, Sanil},
+    title = {A brain organoid/ALL coculture model reveals the AP-1 pathway as critically associated with CNS involvement of BCP-ALL},
+    journal = {Blood Advances},
+    volume = {8},
+    number = {19},
+    pages = {4997-5011},
+    year = {2024},
+    month = {09},
+    abstract = {Central nervous system (CNS) involvement remains a clinical hurdle in treating childhood B-cell precursor acute lymphoblastic leukemia (BCP-ALL). The disease mechanisms of CNS leukemia are primarily investigated using 2-dimensional cell culture and mouse models. Given the variations in cellular identity and architecture between the human and murine CNS, it becomes imperative to seek complementary models to study CNS leukemia. Here, we present a first-of-its-kind 3-dimensional coculture model combining human brain organoids and BCP-ALL cells. We noticed significantly higher engraftment of BCP-ALL cell lines and patient-derived xenograft (PDX) cells in cerebral organoids than non-ALL cells. To validate translatability between organoid coculture and in vivo murine models, we confirmed that targeting CNS leukemia–relevant pathways such as CD79a/Igα or C-X-C motif chemokine receptor 4–stromal cell-derived factor 1 reduced the invasion of BCP-ALL cells into organoids. RNA sequencing and functional validations of organoid-invading leukemia cells compared with the noninvaded fraction revealed significant upregulation of activator protein 1 (AP-1) transcription factor–complex members in organoid-invading cells. Moreover, we detected a significant enrichment of AP-1 pathway genes in PDX ALL cells recovered from the CNS compared with spleen blasts of mice that had received transplantation with TCF3::PBX1+ PDX cells, substantiating the role of AP-1 signaling in CNS disease. Accordingly, we found significantly higher levels of the AP-1 gene, jun proto-oncogene, in patients initially diagnosed as CNS-positive BCP-ALL compared with CNS-negative cases as well as CNS-relapse vs non–CNS-relapse cases in a cohort of 100 patients with BCP-ALL. Our results suggest CNS organoids as a novel model to investigate CNS involvement and identify the AP-1 pathway as a critical driver of CNS disease in BCP-ALL.},
+    issn = {2473-9529},
+    doi = {10.1182/bloodadvances.2023011145},
+    url = {https://doi.org/10.1182/bloodadvances.2023011145},
+    eprint = {https://ashpublications.org/bloodadvances/article-pdf/8/19/4997/2245594/blooda\_adv-2023-011145-main.pdf},
 }
+
 ```
 
